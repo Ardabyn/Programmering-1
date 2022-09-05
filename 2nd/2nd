@@ -1,0 +1,13 @@
+from readline import set_completion_display_matches_hook
+from socket import AF_IRDA
+Seconds= ()
+Age= ()
+Username= (Arda)
+
+print(Username)
+print(Age)
+age: 17
+username= Arda
+
+
+
