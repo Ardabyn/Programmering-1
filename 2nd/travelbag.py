@@ -1,22 +1,27 @@
-# Travelbag
-# Skelettkod till uppgiften
+from cgi import print_arguments
+from secrets import choice
+from xml import sax
 
-travelbag = []
+
+travelbag = ["sax","papper,"; "glasögon"]
 
 while True:
    menyval = input("1. Kolla i resväskan\n"
                    "2. Lägg sak i resväskan\n"
                    "3. Ta bort sak i resväskan\n"
-                   "4. Avsluta program")
-
+                   "4. Avsluta program\n")
    if menyval == "1":
-       pass
-
+       print(f"Du har {travelbag} i väskan. ")
+        
    elif menyval == "2":
-       pass
+       travelbag.append (input("Vad vill du lägga till?  "))
 
    elif menyval == "3":
-       pass
+    try:
+        travelbag.remove (input("Vad vill du ta bort? "))
 
+    except:
+        input("Den här saken finns ej at ta bort. Tryck på Enter för att fortsätta. ")
+        
    elif menyval == "4":
        break
