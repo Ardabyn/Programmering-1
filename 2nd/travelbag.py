@@ -3,7 +3,7 @@ from secrets import choice
 from xml import sax
 
 
-travelbag = ["sax","papper,"; "glasögon"]
+travelbag = ["sax","papper", "glasögon"]
 
 while True:
    menyval = input("1. Kolla i resväskan\n"
