@@ -1,4 +1,4 @@
-nummer = [3, 5, 3, 6, 2, 9, 1, 17]
+nummer = [3, 5, 3, 6, 2, 9, 1, 12]
 
 
 def sort_nmr(nummer):
