@@ -1,5 +1,5 @@
 from readline import set_completion_display_matches_hook
-from socket import AF_IRDA
+from socket import Arda
 Seconds= ()
 Age= ()
 Username= (Arda)
