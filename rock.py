@@ -14,4 +14,3 @@ elif computer == ("Rock") and user == "Rock":
 
 
 
-# TODO - Implement the if statements that prints who wins
